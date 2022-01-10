@@ -20,7 +20,7 @@ const App = () => {
 
   // 고유 값으로 사용 될 id
   // ref 를 사용하여 변수 담기
-  const nextId = useRef(4);
+  const nextId = useRef(2501);
 
   const onInsert = useCallback(text => {
     const todo = {
